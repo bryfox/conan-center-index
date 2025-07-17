@@ -1,0 +1,264 @@
+{
+    "graph": {
+        "nodes": {
+            "0": {
+                "ref": "conanfile",
+                "id": "0",
+                "recipe": "Cli",
+                "package_id": null,
+                "prev": null,
+                "rrev": null,
+                "rrev_timestamp": null,
+                "prev_timestamp": null,
+                "remote": null,
+                "binary_remote": null,
+                "build_id": null,
+                "binary": null,
+                "invalid_build": false,
+                "info_invalid": null,
+                "name": null,
+                "user": null,
+                "channel": null,
+                "url": null,
+                "license": null,
+                "author": null,
+                "description": null,
+                "homepage": null,
+                "build_policy": null,
+                "upload_policy": null,
+                "revision_mode": "hash",
+                "provides": null,
+                "deprecated": null,
+                "win_bash": null,
+                "win_bash_run": null,
+                "default_options": null,
+                "options_description": null,
+                "version": null,
+                "topics": null,
+                "package_type": "unknown",
+                "languages": [],
+                "settings": {
+                    "os": "Linux",
+                    "arch": "armv8",
+                    "compiler": "gcc",
+                    "compiler.cppstd": "gnu17",
+                    "compiler.libcxx": "libstdc++",
+                    "compiler.version": "11",
+                    "build_type": "Release"
+                },
+                "options": {},
+                "options_definitions": {},
+                "generators": [],
+                "python_requires": null,
+                "system_requires": {},
+                "recipe_folder": null,
+                "source_folder": null,
+                "build_folder": null,
+                "generators_folder": null,
+                "package_folder": null,
+                "immutable_package_folder": null,
+                "cpp_info": {
+                    "root": {
+                        "includedirs": [
+                            "include"
+                        ],
+                        "srcdirs": null,
+                        "libdirs": [
+                            "lib"
+                        ],
+                        "resdirs": null,
+                        "bindirs": [
+                            "bin"
+                        ],
+                        "builddirs": null,
+                        "frameworkdirs": null,
+                        "system_libs": null,
+                        "frameworks": null,
+                        "libs": null,
+                        "defines": null,
+                        "cflags": null,
+                        "cxxflags": null,
+                        "sharedlinkflags": null,
+                        "exelinkflags": null,
+                        "objects": null,
+                        "sources": null,
+                        "sysroot": null,
+                        "requires": null,
+                        "properties": null,
+                        "exe": null,
+                        "type": null,
+                        "location": null,
+                        "link_location": null,
+                        "languages": null
+                    }
+                },
+                "conf_info": {},
+                "label": "cli",
+                "vendor": false,
+                "dependencies": {
+                    "1": {
+                        "ref": "foxglove-sdk/0.10.0",
+                        "require": "foxglove-sdk/0.10.0",
+                        "run": false,
+                        "libs": true,
+                        "skip": false,
+                        "test": false,
+                        "force": false,
+                        "direct": true,
+                        "build": false,
+                        "transitive_headers": null,
+                        "transitive_libs": null,
+                        "headers": true,
+                        "package_id_mode": null,
+                        "visible": true
+                    }
+                },
+                "context": "host",
+                "test": false
+            },
+            "1": {
+                "ref": "foxglove-sdk/0.10.0#9db71479b06f0e7f065ef1fa467c5a27",
+                "id": "1",
+                "recipe": "Cache",
+                "package_id": "e87314d6f370a018657d89677b76efcb3d1c078d",
+                "prev": "26f580c9c22ba385c1bd463ab3a0fd2d",
+                "rrev": "9db71479b06f0e7f065ef1fa467c5a27",
+                "rrev_timestamp": 1752780302.095885,
+                "prev_timestamp": null,
+                "remote": null,
+                "binary_remote": null,
+                "build_id": null,
+                "binary": "Build",
+                "invalid_build": false,
+                "info_invalid": null,
+                "name": "foxglove-sdk",
+                "user": null,
+                "channel": null,
+                "url": "https://github.com/conan-io/conan-center-index",
+                "license": "MIT",
+                "author": null,
+                "description": "Foxglove SDK",
+                "homepage": "https://github.com/foxglove/foxglove-sdk",
+                "build_policy": null,
+                "upload_policy": null,
+                "revision_mode": "hash",
+                "provides": null,
+                "deprecated": null,
+                "win_bash": null,
+                "win_bash_run": null,
+                "default_options": {
+                    "shared": false
+                },
+                "options_description": null,
+                "version": "0.10.0",
+                "topics": [
+                    "foxglove",
+                    "robotics",
+                    "visualization"
+                ],
+                "package_type": "static-library",
+                "languages": [],
+                "settings": {
+                    "os": "Linux",
+                    "arch": "armv8",
+                    "compiler": "gcc",
+                    "compiler.cppstd": "gnu17",
+                    "compiler.libcxx": "libstdc++",
+                    "compiler.version": "11",
+                    "build_type": "Release"
+                },
+                "options": {
+                    "shared": "False"
+                },
+                "options_definitions": {
+                    "shared": [
+                        "True",
+                        "False"
+                    ]
+                },
+                "generators": [],
+                "python_requires": null,
+                "system_requires": {},
+                "recipe_folder": "/root/.conan2/p/foxgl1b3237a343fbc/e",
+                "source_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/b",
+                "build_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/b/build/Release",
+                "generators_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/b/build/Release/generators",
+                "package_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/p",
+                "immutable_package_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/p",
+                "cpp_info": {
+                    "root": {
+                        "includedirs": [
+                            "/root/.conan2/p/b/foxgl3588c87e4114e/p/include"
+                        ],
+                        "srcdirs": null,
+                        "libdirs": [
+                            "/root/.conan2/p/b/foxgl3588c87e4114e/p/lib"
+                        ],
+                        "resdirs": [],
+                        "bindirs": [
+                            "/root/.conan2/p/b/foxgl3588c87e4114e/p/bin"
+                        ],
+                        "builddirs": null,
+                        "frameworkdirs": null,
+                        "system_libs": [
+                            "dl",
+                            "m",
+                            "pthread"
+                        ],
+                        "frameworks": null,
+                        "libs": [
+                            "foxglove_cpp",
+                            "foxglove"
+                        ],
+                        "defines": null,
+                        "cflags": null,
+                        "cxxflags": null,
+                        "sharedlinkflags": null,
+                        "exelinkflags": null,
+                        "objects": null,
+                        "sources": null,
+                        "sysroot": null,
+                        "requires": [],
+                        "properties": {
+                            "cmake_file_name": "foxglove-sdk",
+                            "pkg_config_name": "foxglove-sdk",
+                            "cmake_target_name": "foxglove-sdk::foxglove-sdk"
+                        },
+                        "exe": null,
+                        "type": null,
+                        "location": null,
+                        "link_location": null,
+                        "languages": null
+                    }
+                },
+                "conf_info": {},
+                "label": "foxglove-sdk/0.10.0",
+                "info": {
+                    "settings": {
+                        "os": "Linux",
+                        "arch": "armv8",
+                        "compiler": "gcc",
+                        "compiler.cppstd": "gnu17",
+                        "compiler.libcxx": "libstdc++",
+                        "compiler.version": "11",
+                        "build_type": "Release"
+                    },
+                    "options": {
+                        "shared": "False"
+                    }
+                },
+                "vendor": false,
+                "dependencies": {},
+                "context": "host",
+                "test": false
+            }
+        },
+        "root": {
+            "0": "None"
+        },
+        "overrides": {},
+        "resolved_ranges": {},
+        "replaced_requires": {},
+        "error": null
+    }
+}

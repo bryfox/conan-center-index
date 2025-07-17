@@ -1,0 +1,32 @@
+{
+    "Local Cache": {
+        "foxglove-sdk/0.10.0": {
+            "revisions": {
+                "9db71479b06f0e7f065ef1fa467c5a27": {
+                    "timestamp": 1752780302.095885,
+                    "packages": {
+                        "e87314d6f370a018657d89677b76efcb3d1c078d": {
+                            "revisions": {
+                                "26f580c9c22ba385c1bd463ab3a0fd2d": {}
+                            },
+                            "info": {
+                                "settings": {
+                                    "os": "Linux",
+                                    "arch": "armv8",
+                                    "compiler": "gcc",
+                                    "compiler.cppstd": "gnu17",
+                                    "compiler.libcxx": "libstdc++",
+                                    "compiler.version": "11",
+                                    "build_type": "Release"
+                                },
+                                "options": {
+                                    "shared": "False"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
