@@ -1,13 +1,13 @@
 {
     "Local Cache": {
-        "foxglove-sdk/0.10.0": {
+        "foxglove-sdk/0.10.1": {
             "revisions": {
-                "9db71479b06f0e7f065ef1fa467c5a27": {
-                    "timestamp": 1752780302.095885,
+                "ffa5a5a052426d8171475a2ca301975c": {
+                    "timestamp": 1753364009.4019346,
                     "packages": {
                         "e87314d6f370a018657d89677b76efcb3d1c078d": {
                             "revisions": {
-                                "26f580c9c22ba385c1bd463ab3a0fd2d": {}
+                                "15eda600e5ae674591fe3023e68a8eb1": {}
                             },
                             "info": {
                                 "settings": {

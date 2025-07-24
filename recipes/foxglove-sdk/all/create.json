@@ -97,8 +97,8 @@
                 "vendor": false,
                 "dependencies": {
                     "1": {
-                        "ref": "foxglove-sdk/0.10.0",
-                        "require": "foxglove-sdk/0.10.0",
+                        "ref": "foxglove-sdk/0.10.1",
+                        "require": "foxglove-sdk/0.10.1",
                         "run": false,
                         "libs": true,
                         "skip": false,
@@ -117,13 +117,13 @@
                 "test": false
             },
             "1": {
-                "ref": "foxglove-sdk/0.10.0#9db71479b06f0e7f065ef1fa467c5a27",
+                "ref": "foxglove-sdk/0.10.1#ffa5a5a052426d8171475a2ca301975c",
                 "id": "1",
                 "recipe": "Cache",
                 "package_id": "e87314d6f370a018657d89677b76efcb3d1c078d",
-                "prev": "26f580c9c22ba385c1bd463ab3a0fd2d",
-                "rrev": "9db71479b06f0e7f065ef1fa467c5a27",
-                "rrev_timestamp": 1752780302.095885,
+                "prev": "15eda600e5ae674591fe3023e68a8eb1",
+                "rrev": "ffa5a5a052426d8171475a2ca301975c",
+                "rrev_timestamp": 1753364009.4019346,
                 "prev_timestamp": null,
                 "remote": null,
                 "binary_remote": null,
@@ -150,7 +150,7 @@
                     "shared": false
                 },
                 "options_description": null,
-                "version": "0.10.0",
+                "version": "0.10.1",
                 "topics": [
                     "foxglove",
                     "robotics",
@@ -179,24 +179,24 @@
                 "generators": [],
                 "python_requires": null,
                 "system_requires": {},
-                "recipe_folder": "/root/.conan2/p/foxgl1b3237a343fbc/e",
-                "source_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/b",
-                "build_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/b/build/Release",
-                "generators_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/b/build/Release/generators",
-                "package_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/p",
-                "immutable_package_folder": "/root/.conan2/p/b/foxgl3588c87e4114e/p",
+                "recipe_folder": "/root/.conan2/p/foxgl9928f2eb704cd/e",
+                "source_folder": "/root/.conan2/p/b/foxgl25d8525373f4d/b",
+                "build_folder": "/root/.conan2/p/b/foxgl25d8525373f4d/b/build/Release",
+                "generators_folder": "/root/.conan2/p/b/foxgl25d8525373f4d/b/build/Release/generators",
+                "package_folder": "/root/.conan2/p/b/foxgl25d8525373f4d/p",
+                "immutable_package_folder": "/root/.conan2/p/b/foxgl25d8525373f4d/p",
                 "cpp_info": {
                     "root": {
                         "includedirs": [
-                            "/root/.conan2/p/b/foxgl3588c87e4114e/p/include"
+                            "/root/.conan2/p/b/foxgl25d8525373f4d/p/include"
                         ],
                         "srcdirs": null,
                         "libdirs": [
-                            "/root/.conan2/p/b/foxgl3588c87e4114e/p/lib"
+                            "/root/.conan2/p/b/foxgl25d8525373f4d/p/lib"
                         ],
                         "resdirs": [],
                         "bindirs": [
-                            "/root/.conan2/p/b/foxgl3588c87e4114e/p/bin"
+                            "/root/.conan2/p/b/foxgl25d8525373f4d/p/bin"
                         ],
                         "builddirs": null,
                         "frameworkdirs": null,
@@ -232,7 +232,7 @@
                     }
                 },
                 "conf_info": {},
-                "label": "foxglove-sdk/0.10.0",
+                "label": "foxglove-sdk/0.10.1",
                 "info": {
                     "settings": {
                         "os": "Linux",
