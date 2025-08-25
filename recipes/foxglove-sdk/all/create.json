@@ -97,8 +97,8 @@
                 "vendor": false,
                 "dependencies": {
                     "1": {
-                        "ref": "foxglove-sdk/0.11.0",
-                        "require": "foxglove-sdk/0.11.0",
+                        "ref": "foxglove-sdk/0.12.0",
+                        "require": "foxglove-sdk/0.12.0",
                         "run": false,
                         "libs": true,
                         "skip": false,
@@ -117,13 +117,13 @@
                 "test": false
             },
             "1": {
-                "ref": "foxglove-sdk/0.11.0#398bd83ceff22bac24f7a2f5c2f585cc",
+                "ref": "foxglove-sdk/0.12.0#001efc5eba96306dbd79d9afa20624f2",
                 "id": "1",
                 "recipe": "Cache",
                 "package_id": "e87314d6f370a018657d89677b76efcb3d1c078d",
-                "prev": "64697868e49625cd82ca4bf5afe44703",
-                "rrev": "398bd83ceff22bac24f7a2f5c2f585cc",
-                "rrev_timestamp": 1755545172.0323184,
+                "prev": "f3f17d146623a864661ade2ea5a8a4a3",
+                "rrev": "001efc5eba96306dbd79d9afa20624f2",
+                "rrev_timestamp": 1756122642.8858664,
                 "prev_timestamp": null,
                 "remote": null,
                 "binary_remote": null,
@@ -150,7 +150,7 @@
                     "shared": false
                 },
                 "options_description": null,
-                "version": "0.11.0",
+                "version": "0.12.0",
                 "topics": [
                     "foxglove",
                     "robotics",
@@ -179,24 +179,24 @@
                 "generators": [],
                 "python_requires": null,
                 "system_requires": {},
-                "recipe_folder": "/root/.conan2/p/foxgl75ff6274c6e98/e",
-                "source_folder": "/root/.conan2/p/b/foxgled2f6de74e647/b",
-                "build_folder": "/root/.conan2/p/b/foxgled2f6de74e647/b/build/Release",
-                "generators_folder": "/root/.conan2/p/b/foxgled2f6de74e647/b/build/Release/generators",
-                "package_folder": "/root/.conan2/p/b/foxgled2f6de74e647/p",
-                "immutable_package_folder": "/root/.conan2/p/b/foxgled2f6de74e647/p",
+                "recipe_folder": "/root/.conan2/p/foxgle2b10fd7de086/e",
+                "source_folder": "/root/.conan2/p/b/foxgl7b6e73867ab02/b",
+                "build_folder": "/root/.conan2/p/b/foxgl7b6e73867ab02/b/build/Release",
+                "generators_folder": "/root/.conan2/p/b/foxgl7b6e73867ab02/b/build/Release/generators",
+                "package_folder": "/root/.conan2/p/b/foxgl7b6e73867ab02/p",
+                "immutable_package_folder": "/root/.conan2/p/b/foxgl7b6e73867ab02/p",
                 "cpp_info": {
                     "root": {
                         "includedirs": [
-                            "/root/.conan2/p/b/foxgled2f6de74e647/p/include"
+                            "/root/.conan2/p/b/foxgl7b6e73867ab02/p/include"
                         ],
                         "srcdirs": null,
                         "libdirs": [
-                            "/root/.conan2/p/b/foxgled2f6de74e647/p/lib"
+                            "/root/.conan2/p/b/foxgl7b6e73867ab02/p/lib"
                         ],
                         "resdirs": [],
                         "bindirs": [
-                            "/root/.conan2/p/b/foxgled2f6de74e647/p/bin"
+                            "/root/.conan2/p/b/foxgl7b6e73867ab02/p/bin"
                         ],
                         "builddirs": null,
                         "frameworkdirs": null,
@@ -232,7 +232,7 @@
                     }
                 },
                 "conf_info": {},
-                "label": "foxglove-sdk/0.11.0",
+                "label": "foxglove-sdk/0.12.0",
                 "info": {
                     "settings": {
                         "os": "Linux",
@@ -250,35 +250,35 @@
                 "vendor": false,
                 "conandata": {
                     "sources": {
-                        "0.11.0": {
+                        "0.12.0": {
                             "Windows": {
                                 "x86_64": {
-                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.11.0/foxglove-v0.11.0-cpp-x86_64-pc-windows-msvc.zip",
-                                    "sha256": "03ea4614bee05a0e100ed5ea44753726572657499494aaf81954d2a4826292a9"
+                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.12.0/foxglove-v0.12.0-cpp-x86_64-pc-windows-msvc.zip",
+                                    "sha256": "0cbba2c3227906a7fc8b8f2745d04330d89d84564dbdf101e7da90e2969feca3"
                                 },
                                 "armv8": {
-                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.11.0/foxglove-v0.11.0-cpp-aarch64-pc-windows-msvc.zip",
-                                    "sha256": "ed4c8675ab7b7ca3c52887cb7ad5069faf6bcaa0e1abccc04fa413b646f28f6a"
+                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.12.0/foxglove-v0.12.0-cpp-aarch64-pc-windows-msvc.zip",
+                                    "sha256": "6672c67a423568be76b3bab07b210f10494f60e07ffa647c17211568e4ceba58"
                                 }
                             },
                             "Linux": {
                                 "x86_64": {
-                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.11.0/foxglove-v0.11.0-cpp-x86_64-unknown-linux-gnu.zip",
-                                    "sha256": "da778da2de6688ba3a7ebcafb1813bfafa7cbc7a931d49f9fa90c77c538ca3a0"
+                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.12.0/foxglove-v0.12.0-cpp-x86_64-unknown-linux-gnu.zip",
+                                    "sha256": "69256eb61239b7e933f4f21b8a610dfa0e012d586811d58f1f336d13f37553d3"
                                 },
                                 "armv8": {
-                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.11.0/foxglove-v0.11.0-cpp-aarch64-unknown-linux-gnu.zip",
-                                    "sha256": "28807d1a02d4afe613afe1229b298ca1c48ee1d881c496686d93da08897b6a25"
+                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.12.0/foxglove-v0.12.0-cpp-aarch64-unknown-linux-gnu.zip",
+                                    "sha256": "a9d0c6c8acc24b5aaaf6d8d57a39e0de9b6de4b09f52e0199a0bad88fca7e81c"
                                 }
                             },
                             "Macos": {
                                 "x86_64": {
-                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.11.0/foxglove-v0.11.0-cpp-x86_64-apple-darwin.zip",
-                                    "sha256": "3a0c9a6ef445adcc6ecb8337b03b1e6c87b7423eaf156b896376619ea826fa30"
+                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.12.0/foxglove-v0.12.0-cpp-x86_64-apple-darwin.zip",
+                                    "sha256": "ecc44e699da5e44423de169366ae0c8fa92e51bd85629c6ceed21238411cc72d"
                                 },
                                 "armv8": {
-                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.11.0/foxglove-v0.11.0-cpp-aarch64-apple-darwin.zip",
-                                    "sha256": "4a928eb3bf53c695d6e4ae718592ddac463f138f262cb4fe85d74754df127dab"
+                                    "url": "https://github.com/foxglove/foxglove-sdk/releases/download/sdk%2Fv0.12.0/foxglove-v0.12.0-cpp-aarch64-apple-darwin.zip",
+                                    "sha256": "cca41a06722bef6fcc78457c5010f393edf95515fca24573bc086ffb40ddbef4"
                                 }
                             }
                         }
